@@ -85,6 +85,62 @@ img {
 h1, h2, h3 {
     line-height: 1.2;
 }
+/* HEADER */
+header {
+    background-color: var(--black);
+    border-bottom: 2px solid var(--blue);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header h1::before {
+    content: "";
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url('images/vanguard-logo.svg') no-repeat center/contain;
+}
+
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--blue);
+}
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
