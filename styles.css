@@ -109,6 +109,55 @@ h1, h2, h3 {
     position: relative;
 }
 
+/* NAV */
+#nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: var(--charcoal);
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    width: 180px;
+    border-radius: 4px;
+    padding: .5rem 0;
+}
+
+#nav-menu.open {
+    display: flex;
+}
+
+#nav-menu li a {
+    display: block;
+    padding: .75rem 1.25rem;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+
+#nav-menu li a:hover {
+    color: var(--blue);
+}
+
+/* MENU BUTTON */
+#menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: .25rem;
+}
+
+#menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--white);
+    border-radius: 2px;
+}
+
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
