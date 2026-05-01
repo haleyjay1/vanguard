@@ -180,6 +180,89 @@ h1, h2, h3 {
     overflow: hidden;
 }
 
+#innovation h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#innovation p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+
+#innovation a {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: .75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#innovation a:hover {
+    background-color: #0056c7;
+}
+
+/* EXPERTISE */
+#expertise {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 3rem 0;
+}
+
+#expertise h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#expertise p {
+    font-size: 1rem;
+}
+
+/* SERVICES */
+#services {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 2rem 0 3rem;
+}
+
+#services h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.service-item {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1.25rem;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-4px);
+}
+
+.service-item h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .75rem;
+}
+
+.service-item p {
+    font-size: .9rem;
+}
+
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
  #main-header h1::before {
     content: "";
