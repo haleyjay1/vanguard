@@ -86,6 +86,29 @@ h1, h2, h3 {
     line-height: 1.2;
 }
 
+/* HEADER */
+#main-header {
+    background-color: var(--black);
+    border-bottom: 2px solid var(--blue);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 3rem;
+    position: relative;
+}
+
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
