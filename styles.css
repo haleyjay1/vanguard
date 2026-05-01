@@ -137,7 +137,7 @@ h1, h2, h3 {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
+    transition: height 0.4s ease;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
@@ -166,6 +166,7 @@ h1, h2, h3 {
 
 
 /* MEDIA QUERIES (MEDIUM) */ 
+@media (min-width: 800px) {
 
     #results {
         grid-template-columns: 1fr 1fr;
@@ -181,5 +182,14 @@ h1, h2, h3 {
         width: 50%;
     }
 
+}
+
 
 /* MEDIA QUERIES (LARGE) */
+@media (min-width: 1024px) {
+
+    #services-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
