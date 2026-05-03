@@ -369,7 +369,7 @@ textarea {
     min-height: 120px;
 }
 
-button[type="submit"] {
+button {
     background-color: var(--blue);
     color: var(--white);
     padding: .75rem;
@@ -383,7 +383,7 @@ button[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
+button:hover {
     background-color: #0056c7;
 }
 
@@ -475,6 +475,20 @@ footer a {
     .bar-chart {
         width: 50%;
     }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background-color: transparent;
+        width: auto;
+        padding: 0;
+        gap: 1.5rem;
+}
 
 }
 

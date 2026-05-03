@@ -13,17 +13,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<script>
-    const toggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('nav-menu');
-    toggle.addEventListener('click', () => {
-        menu.classList.toggle('open');
-    });
-</script>
 
 <body>
 <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
-    <header>
+    <header id="main-header">
         <h1>Vanguard</h1>
         <nav>
             <h2>Main Navigation</h2>
@@ -169,3 +162,13 @@
             <p>Email: <a href="mailto:info@vanguard.com">info@vanguard.com</a></p>
             <p>Phone: 480.123.4567</p>
         </footer>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('nav-menu');
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('open');
+        });
+    </script>   
+</body>
+</html>
