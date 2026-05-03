@@ -133,10 +133,11 @@ h1, h2, h3 {
     font-weight: 600;
     text-transform: uppercase;
     transition: color 0.2s ease;
+    color: var(--blue);
 }
 
 #nav-menu li a:hover {
-    color: var(--blue);
+    color: var(--white);
 }
 
 /* MENU BUTTON */
